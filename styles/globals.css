@@ -4,6 +4,7 @@
 
 html,
 body {
+  color: 'white';
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -20,7 +21,8 @@ a {
 }
 
 .background {
-  background-image: linear-gradient(#6A91C8, #92B0E2);
+  /* background-image: linear-gradient(#6A91C8, #92B0E2); */
+  background-color: black;
 }
 
 .page-wrapper {
@@ -96,7 +98,7 @@ a {
 .tracklist-item {
   cursor: pointer;
   padding: 10px;
-  background-color: #121065;
+  background-color: rgb(235, 71, 61);
   width: 80%;
   height: 50px;
   text-align: center;
@@ -200,6 +202,7 @@ a {
   position: relative !important;
   width: 1117px !important;
   max-width: unset !important;
+  filter: invert(1);
 }
 
 .box-shadow {
